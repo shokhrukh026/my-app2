@@ -67,7 +67,7 @@ export default {
                 },
                 {
                     icon: 'lock_open',
-                    title: 'Зарегестрироваться',
+                    title: 'Зарегистрироваться',
                     route: '/signup'
                 },
             ]

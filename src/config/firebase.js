@@ -1,10 +1,9 @@
 export default{
-    apiKey: "AIzaSyDXwWMnaM6lwtx5q-GCwI-Y8B0fL0R_Ydg",
-    authDomain: "ichlernedeutchapp2.firebaseapp.com",
-    databaseURL: "https://ichlernedeutchapp2.firebaseio.com",
-    projectId: "ichlernedeutchapp2",
+    apiKey: "AIzaSyA_xnw3JHr8vvpMNrj__SQVbvqrymmyU4o",
+    authDomain: "ichlernedeutch-4a5a2.firebaseapp.com",
+    databaseURL: "https://ichlernedeutch-4a5a2.firebaseio.com",
+    projectId: "ichlernedeutch-4a5a2",
     storageBucket: "",
-    messagingSenderId: "502196308502",
-    appId: "1:502196308502:web:d46892d41921f316"
-
+    messagingSenderId: "690061567303",
+    appId: "1:690061567303:web:e73847a64a29e651"
 }
