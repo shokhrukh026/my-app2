@@ -11,11 +11,11 @@ export default{
             state.error = payload
         },
         CLEAN_ERROR(state){
-            state.error = null
+            state.error=null
         }
     },
     getters: {
-        getProcessing:(state) => state.processing,
-        getErrors:(state) => state.error
+        getProcessing: (state) => state.processing,
+        getError:(state) => state.error
     }
 }
