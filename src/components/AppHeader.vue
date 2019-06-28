@@ -23,6 +23,10 @@
                     <v-icon left v-html="item.icon"></v-icon>
                     {{item.title}}
                 </v-btn>
+                <v-btn flat @click.prevent="signout" v-if="isUserAuthenticated">
+                    <v-icon>exit_to_app</v-icon>
+                    Выйти
+                </v-btn>
             </v-toolbar-items>
         </v-toolbar>
     </div>
@@ -57,11 +61,6 @@ export default {
                   title: 'Мой кабинет',
                   route: '/profile'
               },
-              {
-                  icon: 'exit_to_app',
-                  title: 'Выйти',
-                  route: '/logout'
-              }
           ] : 
             [
               {
@@ -80,6 +79,15 @@ export default {
                   route: '/signup'
               }
             ]
+      }
+  },
+  methods:{
+      signout(){
+          this.$confirm('На сегодня хватит немецкого? Я вернусь завтра').then(res => {
+              if(res){
+                  this.$store.dispatch('SIGNOUT')
+              }
+          })
       }
   }
 }
