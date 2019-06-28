@@ -10,6 +10,12 @@ export default{
         SET_USER(state, payload){
             state.user.isAuthenticated=true
             state.user.uid=payload
+        },
+        UNSET_USER(state){
+            state.user = {
+                isAuthenticated: false,
+                uid: null
+            }
         }
     },
     actions: {
@@ -38,6 +44,13 @@ export default{
                 commit('SET_PROCESSING', false)
                 commit('SET_ERROR', error.message)
               });
+        },
+        STATE_CHANGED({commit}, payload){
+            if(payload){
+                commit('SET_USER', user.uid)
+            }else{
+                commit('UNSET_USER')
+            }
         }
 
     },

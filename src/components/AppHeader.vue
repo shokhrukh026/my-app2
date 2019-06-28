@@ -41,17 +41,16 @@ export default {
 
   },
   computed:{
+      isUserAuthenticated(){
+          return this.$store.getters.isUserAuthenticated
+      },
       menuItems(){
-          return[
+          return isUserAuthenticated ?
+            [
               {
                   icon: 'visibility',
                   title: 'Читать',
                   route: '/books'
-              },
-              {
-                  icon: 'extension',
-                  title: 'Учить Слова',
-                  route: '/words'
               },
               {
                   icon: 'account_circle',
@@ -62,6 +61,13 @@ export default {
                   icon: 'exit_to_app',
                   title: 'Выйти',
                   route: '/logout'
+              }
+          ] : 
+            [
+              {
+                  icon: 'visibility',
+                  title: 'Читать',
+                  route: '/books'
               },
               {
                   icon: 'input',
@@ -72,8 +78,8 @@ export default {
                   icon: 'lock_open',
                   title: 'Зарегестрироваться',
                   route: '/signup'
-              },
-          ]
+              }
+            ]
       }
   }
 }
