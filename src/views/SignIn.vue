@@ -8,7 +8,7 @@
               </v-toolbar>
               <v-card-text>
                 <v-alert :value="error" type="warning">{{error}}</v-alert>
-                <v-form v-model="value">
+                <v-form v-model="valid">
                   <v-text-field prepend-icon="person" name="login" label="Е-мейл" type="email" required 
                   v-model="email" :rules="emailRules"></v-text-field>
                   <v-text-field id="password" prepend-icon="lock" name="password" label="Пароль" type="password" required 
@@ -36,31 +36,30 @@ export default {
              emailRules: 
             [ 
               (v) => !!v || 'Пожалуйста введите email', 
-              (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'Неправильный email' 
+              (v) => /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'Неправильный email'
             ], 
             passwordRules: 
             [ 
               (v) => !!v || 'Пожалуйста введите пароль', 
-              (v) => (v && v.length >= 6) || 'Пароль слишком короткий - минимум 6 символов' 
+              (v) => (v && v.length >= 6) || 'Пароль слишком короткий - минимум 6 символов'
             ]
         }
     },
     computed:{
       error(){
-        this.$store.getters.getError
+        return this.$store.getters.getError
       },
       processing(){
-        this.$store.getters.getProcessing
+        return this.$store.getters.getProcessing
       },
       isUserAuthenticated(){
-        this.$store.getters.isUserAuthenticated
+        return this.$store.getters.isUserAuthenticated
       }
     },
     watch:{
       isUserAuthenticated(val){
-        if(val===true){
+        if(val === true)
           this.$router.push('/')
-        }
       }
     },
     methods:{

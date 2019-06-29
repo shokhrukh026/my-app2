@@ -49,7 +49,7 @@ export default {
           return this.$store.getters.isUserAuthenticated
       },
       menuItems(){
-          return isUserAuthenticated ?
+          return this.isUserAuthenticated ?
             [
               {
                   icon: 'visibility',

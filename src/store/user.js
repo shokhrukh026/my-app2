@@ -23,7 +23,7 @@ export default{
             commit('SET_PROCESSING', true)
             commit('CLEAR_ERROR')
             firebase.auth().createUserWithEmailAndPassword(payload.email, payload.password)
-            .then(user => {
+            .then(() => {
                 commit('SET_PROCESSING', false)
             })
             
@@ -36,7 +36,7 @@ export default{
             commit('SET_PROCESSING', true)
             commit('CLEAR_ERROR')
             firebase.auth().signInWithEmailAndPassword(payload.email, payload.password)
-            .then(user => {
+            .then(() => {
                 commit('SET_PROCESSING', false)
             })
             
@@ -50,7 +50,7 @@ export default{
         },
         STATE_CHANGED({commit}, payload){
             if(payload){
-                commit('SET_USER', user.uid)
+                commit('SET_USER', payload.uid)
             }else{
                 commit('UNSET_USER')
             }

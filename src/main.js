@@ -19,7 +19,7 @@ Vue.use(VuetifyConfirm, {
   property: '$confirm'
 })
 
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig)
 
 
 new Vue({
