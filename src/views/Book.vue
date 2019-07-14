@@ -5,7 +5,7 @@
                 <book-details :book="book"></book-details>
             </v-flex>
             <v-flex xs12 sm10 offset-sm1 v-for="part in book.parts" :key="part.id">
-                <!-- <book-part-list-item></book-part-list-item> -->
+                <book-part-list-item :part="part" :bookId="book.id"></book-part-list-item>
             </v-flex>
         </v-layout>
     </v-container>
@@ -15,7 +15,7 @@
 
 <script>
 import BookDetails from '../components/BookDetails.vue'
-
+import BookPartListItem from '../components/BookPartListItem.vue'
 export default {
     props:{
         "id":{
@@ -24,7 +24,8 @@ export default {
         }
     },
     components:{
-        BookDetails
+        BookDetails,
+        BookPartListItem
     },
     computed:{
         book(){

@@ -97,6 +97,70 @@ export default{
                     },
                 ]
             },
+        ],
+        bookParts:[
+            {
+                bookId: 'dsdsdsdsddsddssd',
+                bookPartId: 'ssdsdsdsdsdds',
+                bookTitle: 'Harry Potter und der Stein der Weisen - 3',
+                partTitle: 'Kapitel 1',
+                youtube_id: 'dssdsdsdsd',
+                content:[
+                    {
+                        sentences:[
+                            {
+                                origText: 'Harry Potters einjähriger Elternteil tötet Voldemort und verschwindet dann, wenn er versucht, Harry selbst zu töten. Spät in der Nacht erscheinen Hogwarts Zauberschule, Albus Dumbledore, und seine Stellvertreterin, Minerva McGonagall, im Haus von Vernon und Petunia Dursley, Harrys einzigen Verwandten. Förster Rubeus Hagrid bringt ein Kind mit, das mit seiner Tante bei seinem Onkel zurückbleibt, damit der Ruhm seinen Kopf nicht vorzeitig dreht.',
+                                transText: 'Родителей годовалого Гарри Поттера убивает Волан-де-Морт, после чего исчезает при попытке убить самого Гарри. Поздно вечером директор школы волшебства Хогвартс Альбус Дамблдор и его заместитель Минерва МакГонагалл появляются возле дома Вернона и Петуньи Дурсль, единственных родственников Гарри. Лесник Рубеус Хагрид привозит ребёнка, которого оставляют у дяди с тётей, чтобы слава не вскружила ему голову раньше времени.'
+                            },
+                            {
+                                origText: 'Es dauert zehn Jahre und Harry von einem kleinen Jungen wird ein kluger junger Mann. Dursley hält Harry in einem Schrank mit Spinnen und misshandelt ihn, weil sie Zauberer hassen, während er alle Launen seines Sohnes Dudley (Harrys Cousin) erfüllt und ihn im Allgemeinen in Luxus badet.',
+                                transText: 'Проходит десять лет и Гарри из маленького мальчика становится умным юношей. Дурсли держат Гарри в чулане с пауками и плохо с ним обращаются, поскольку ненавидят волшебников, при этом выполняют любые прихоти своего сына Дадли (двоюродного брата Гарри) и вообще купают его в роскоши.'
+                            },
+                            {
+                                origText: 'Merkwürdige, bezaubernde, erstaunliche, aufregende und verwickelte mystische Dinge passieren manchmal Harry, zum Beispiel, wenn Tante Petunia über Nacht Haare schneidet, Glas verschwindet und er mit einer Schlange spricht. Am Vorabend des elften Lebensjahres erhält der Junge einen Brief, den Onkel Vernon mitnimmt. Dursley und Harry gehen zu einer Inselhütte.',
+                                transText: 'С Гарри иногда случаются странные , феерические, удивительные, захватывающие и запутанные мистические вещи ,например, отрастают за ночь остриженные тётей Петуньей в глупую прическу волосы, исчезает стекло, а сам он говорит со змеёй. Накануне одиннадцатилетия мальчик получает письмо, которое отнимает дядя Вернон. Дурсли с Гарри уезжают в хижину на острове.'
+                            },
+                        ],
+                        sentences:[
+                            {
+                                origText: 'Harry Potters einjähriger Elternteil tötet Voldemort und verschwindet dann, wenn er versucht, Harry selbst zu töten. Spät in der Nacht erscheinen Hogwarts Zauberschule, Albus Dumbledore, und seine Stellvertreterin, Minerva McGonagall, im Haus von Vernon und Petunia Dursley, Harrys einzigen Verwandten. Förster Rubeus Hagrid bringt ein Kind mit, das mit seiner Tante bei seinem Onkel zurückbleibt, damit der Ruhm seinen Kopf nicht vorzeitig dreht.',
+                                transText: 'Родителей годовалого Гарри Поттера убивает Волан-де-Морт, после чего исчезает при попытке убить самого Гарри. Поздно вечером директор школы волшебства Хогвартс Альбус Дамблдор и его заместитель Минерва МакГонагалл появляются возле дома Вернона и Петуньи Дурсль, единственных родственников Гарри. Лесник Рубеус Хагрид привозит ребёнка, которого оставляют у дяди с тётей, чтобы слава не вскружила ему голову раньше времени.'
+                            },
+                            {
+                                origText: 'Es dauert zehn Jahre und Harry von einem kleinen Jungen wird ein kluger junger Mann. Dursley hält Harry in einem Schrank mit Spinnen und misshandelt ihn, weil sie Zauberer hassen, während er alle Launen seines Sohnes Dudley (Harrys Cousin) erfüllt und ihn im Allgemeinen in Luxus badet.',
+                                transText: 'Проходит десять лет и Гарри из маленького мальчика становится умным юношей. Дурсли держат Гарри в чулане с пауками и плохо с ним обращаются, поскольку ненавидят волшебников, при этом выполняют любые прихоти своего сына Дадли (двоюродного брата Гарри) и вообще купают его в роскоши.'
+                            },
+                            {
+                                origText: 'Merkwürdige, bezaubernde, erstaunliche, aufregende und verwickelte mystische Dinge passieren manchmal Harry, zum Beispiel, wenn Tante Petunia über Nacht Haare schneidet, Glas verschwindet und er mit einer Schlange spricht. Am Vorabend des elften Lebensjahres erhält der Junge einen Brief, den Onkel Vernon mitnimmt. Dursley und Harry gehen zu einer Inselhütte.',
+                                transText: 'С Гарри иногда случаются странные , феерические, удивительные, захватывающие и запутанные мистические вещи ,например, отрастают за ночь остриженные тётей Петуньей в глупую прическу волосы, исчезает стекло, а сам он говорит со змеёй. Накануне одиннадцатилетия мальчик получает письмо, которое отнимает дядя Вернон. Дурсли с Гарри уезжают в хижину на острове.'
+                            },
+                        ],
+                        
+                    }
+                ],
+                words:[
+                    {
+                        origWord:'Hello',
+                        transWord: 'Привет'
+                    },
+                    {
+                        origWord:'Hello1',
+                        transWord: 'Привет1'
+                    },
+                    {
+                        origWord:'Hello2',
+                        transWord: 'Привет2'
+                    },
+                    {
+                        origWord:'Hello3',
+                        transWord: 'Привет3'
+                    },
+                    {
+                        origWord:'Hello4',
+                        transWord: 'Привет4'
+                    }
+                ]
+            }
         ]
     },
     mutations:{
@@ -105,6 +169,7 @@ export default{
         }
     },
     getters:{
-        getBook: (state) => state.books
+        getBook: (state) => state.books,
+        getParts: (state) => state.bookParts
     }
 }

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Books from './views/Books.vue'
 import Book from './views/Book.vue'
+import BookPart from './views/BookPart.vue'
 import Profile from './views/Profile.vue'
 import SignIn from './views/SignIn.vue'
 import SignUp from './views/SignUp.vue'
@@ -37,6 +38,12 @@ export default new Router({
       name: 'book',
       props: true,
       component: Book
+    },
+    {
+      path: '/book/:bookId/part/:partId',
+      name: 'bookPart',
+      props: true,
+      component: BookPart
     },
     {
       path: '/profile',

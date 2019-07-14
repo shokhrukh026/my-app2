@@ -27,7 +27,7 @@
                                         <span>({{book.ratingsCount}})</span>
                                     </div>
                                     <v-spacer></v-spacer>
-                                    <v-btn class="primary" flat>Открыть</v-btn>
+                                    <v-btn class="primary" flat>Загрузить</v-btn>
                                 </v-card-actions>
                             </v-flex>
                         </v-layout>
@@ -72,7 +72,7 @@
                                             <span>({{book.ratingsCount}})</span>
                                         </div>
                                         <v-spacer></v-spacer>
-                                        <v-btn class="primary" flat>Открыть</v-btn>
+                                        <v-btn class="primary" flat>Загрузить</v-btn>
                                     </v-card-actions>
                                   </v-flex>
                             </v-layout>
