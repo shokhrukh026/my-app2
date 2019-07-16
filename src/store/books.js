@@ -2,7 +2,7 @@ export default{
     state:{
         books:[
             {
-                id: 'dsdsdfsafafaafjf',
+                id: 'booksid',
                 title: 'Harry Potter und der Stein der Weisen - 1',
                 description: 'Первая глава первой книги о Гарри Поттере',
                 imageId: 'dadaad',
@@ -12,29 +12,29 @@ export default{
                 youtube_playlist_id: 'rtdsewesc',
                 parts: [
                     {
-                        id: 'dsdsdsdsd1',
+                        id: 'booksPartsId',
                         title: 'Kapitel 1',
                         youtube_id: 'zdsdsd1'
                     },
                     {
-                        id: 'dsdsdsdsd2',
+                        id: 'booksPartsId2',
                         title: 'Kapitel 2',
                         youtube_id: 'zdsdsd2'
                     },
                     {
-                        id: 'dsdsdsdsd3',
+                        id: 'booksPartsId3',
                         title: 'Kapitel 3',
                         youtube_id: 'zdsdsd3'
                     },
                     {
-                        id: 'dsdsdsdsd4',
+                        id: 'booksPartsId4',
                         title: 'Kapitel 4',
                         youtube_id: 'zdsdsd4'
                     },
                 ]
             },
             {
-                id: 'dsdsdfsafafaafjadadadf',
+                id: 'booksid',
                 title: 'Harry Potter und der Stein der Weisen - 2',
                 description: 'Вторая глава первой книги о Гарри Поттере',
                 imageId: 'dadaader',
@@ -44,29 +44,29 @@ export default{
                 youtube_playlist_id: 'dsewesc',
                 parts:[
                     {
-                        id: 'dsdsdsdsd1',
+                        id: 'booksPartsId',
                         title: 'Kapitel 1',
                         youtube_id: 'zdsdsd1'
                     },
                     {
-                        id: 'dsdsdsdsd2',
+                        id: 'booksPartsId2',
                         title: 'Kapitel 2',
                         youtube_id: 'zdsdsd2'
                     },
                     {
-                        id: 'dsdsdsdsd3',
+                        id: 'booksPartsId3',
                         title: 'Kapitel 3',
                         youtube_id: 'zdsdsd3'
                     },
                     {
-                        id: 'dsdsdsdsd4',
+                        id: 'booksPartsId4',
                         title: 'Kapitel 4',
                         youtube_id: 'zdsdsd4'
                     },
                 ]
             },
             {
-                id: 'afgfafaadsdsdfsafafaafjf',
+                id: 'booksid',
                 title: 'Harry Potter und der Stein der Weisen - 3',
                 description: 'Третья глава первой книги о Гарри Поттере',
                 imageId: 'dadaadds',
@@ -76,22 +76,22 @@ export default{
                 youtube_playlist_id: 'dsasewesc',
                 parts:[
                     {
-                        id: 'dsdsdsdsd1',
+                        id: 'booksPartsId',
                         title: 'Kapitel 1',
                         youtube_id: 'zdsdsd1'
                     },
                     {
-                        id: 'dsdsdsdsd2',
+                        id: 'booksPartsId2',
                         title: 'Kapitel 2',
                         youtube_id: 'zdsdsd2'
                     },
                     {
-                        id: 'dsdsdsdsd3',
+                        id: 'booksPartsId3',
                         title: 'Kapitel 3',
                         youtube_id: 'zdsdsd3'
                     },
                     {
-                        id: 'dsdsdsdsd4',
+                        id: 'booksPartsId4',
                         title: 'Kapitel 4',
                         youtube_id: 'zdsdsd4'
                     },
@@ -100,9 +100,9 @@ export default{
         ],
         bookParts:[
             {
-                bookId: 'dsdsdsdsddsddssd',
-                bookPartId: 'ssdsdsdsdsdds',
-                bookTitle: 'Harry Potter und der Stein der Weisen - 3',
+                bookId: 'booksid',
+                bookPartId: 'booksPartsId',
+                bookTitle: 'Harry Potter und der Stein der Weisen - 1',
                 partTitle: 'Kapitel 1',
                 youtube_id: 'dssdsdsdsd',
                 content:[
@@ -158,6 +158,26 @@ export default{
                     {
                         origWord:'Hello4',
                         transWord: 'Привет4'
+                    },
+                    {
+                        origWord:'Hello5',
+                        transWord: 'Привет5'
+                    },
+                    {
+                        origWord:'Hello6',
+                        transWord: 'Привет6'
+                    },
+                    {
+                        origWord:'Hello7',
+                        transWord: 'Привет7'
+                    },
+                    {
+                        origWord:'Hello8',
+                        transWord: 'Привет8'
+                    },
+                    {
+                        origWord:'Hello9',
+                        transWord: 'Привет9'
                     }
                 ]
             }

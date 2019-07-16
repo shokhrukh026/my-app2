@@ -1,6 +1,6 @@
 <template>
     <v-card color="info" class="white--text">
-                    <v-container fluid>
+                    <v-container fluid ma-1>
                         <!-- Layout for desktop version -->
                         <v-layout row class="hidden-sm-and-down">
                             <v-flex xs4 md3>
